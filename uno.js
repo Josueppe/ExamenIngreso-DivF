@@ -33,6 +33,8 @@ function mostrar() {
   let flag;
   
 
+  
+
   do {
     nombre = prompt("Ingrese el nombre del producto");
 

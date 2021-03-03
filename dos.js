@@ -109,8 +109,8 @@ if (acumnotatrabajando!=0){
 }
 if (acumnotaestudiante!=0){
 	promest=acumnotaestudiante/		contadorestudiante++;
-  ;
 }
+
 
 
 alert ("A- El nombre del mejor promedio de los estudiantes "+nombremejorprom);
