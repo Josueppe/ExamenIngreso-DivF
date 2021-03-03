@@ -27,6 +27,9 @@ function mostrar()
 	let contadorpami;
 	let preciofinal;
 	let preciodescuento;
+	let masjoven=0;
+	let nombrejoven;
+	let temperaturajoven=0;
 	
 	let flag;
 	

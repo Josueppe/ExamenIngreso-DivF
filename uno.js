@@ -24,7 +24,7 @@ function mostrar() {
   let acumuladorquat=0;
   let unidadesdetergente=0;
   let nombremascaro;
-  let preciomascaro;
+  let preciomascaro=0;
   let categoriamascara;
   let mayorcantidad;
   let promalcohol;
@@ -45,7 +45,7 @@ function mostrar() {
 
     precio = parseFloat(prompt("Ingrese un precio entre 100 y 300"));
     while (isNaN(precio) || precio < 100 || precio > 300) {
-      precio = parseInt(prompt("Error, ingrese un precio entre 100 y 300"));
+      precio = parseFloat(prompt("Error, ingrese un precio entre 100 y 300"));
     }
 
     cantidad = parseInt(prompt("Ingrese la cantidad de unidades"));

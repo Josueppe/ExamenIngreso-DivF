@@ -23,9 +23,9 @@ function mostrar()
   let sexo;
   let notapromedio;
   let edad;
-  let mejorpromedio;
+  let mejorpromedio=0;
   let estudiantemasviejo;
-  let menormaterias;
+  let menormaterias=10;
   let acumnotabuscando=0;
   let acumnotatrabajando=0;
   let acumnotaestudiante=0;
